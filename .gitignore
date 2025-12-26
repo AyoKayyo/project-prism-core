@@ -1,0 +1,117 @@
+# Project Prism - Git Ignore Rules
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Sensitive Data (CRITICAL - NEVER COMMIT)
+.env
+*.env
+config/.env
+soul.json
+safety_ledger.json
+devices.json
+
+# Memory & Database
+db/
+*.db
+*.sqlite
+*.sqlite3
+memory/vector_store/
+memory/graph_store/
+memory/short_term.json
+*.chroma
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Ray Profiles (User Data - NEVER COMMIT)
+**/Prism_Rays/
+**/Riley_Soul/
+knowledge_graph/
+
+# Temporary Files
+*.tmp
+*.temp
+*.cache
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS-Specific
+Thumbs.db
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Distribution Archives
+*.dmg
+*.pkg
+*.exe
+*.msi
+*.app
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Ollama Models (Large files)
+*.gguf
+models/
+
+# Screenshots (if stored locally)
+screenshots/
+*.png
+*.jpg
+*.jpeg
+!assets/*.png  # Allow branding assets
+!assets/*.jpg
+
+# Test Data
+test_data/
+sandbox_config.json

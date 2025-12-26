@@ -1,0 +1,16 @@
+{
+  "ledger_version": "1.0",
+  "date": "2025-12-26",
+  "daily_budget_usd": 1.00,
+  "total_spent_today": 0.00,
+  "transactions": [],
+  "usage_stats": {
+    "total_api_calls": 0,
+    "gemini_calls": 0,
+    "local_calls": 0,
+    "total_input_tokens": 0,
+    "total_output_tokens": 0
+  },
+  "warnings": [],
+  "notes": "This file tracks API usage and costs. It resets daily at midnight. Copy to safety_ledger.json in production."
+}
