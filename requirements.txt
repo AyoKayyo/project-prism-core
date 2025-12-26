@@ -1,0 +1,31 @@
+# Project Prism - Python Dependencies
+
+# Core Framework
+pathlib==1.0.1  # Path handling (usually built-in)
+
+# AI & LLM
+# google-generativeai==0.3.2  # Gemini API (uncomment when ready)
+# ollama==0.1.0  # Local LLM (uncomment when ready)
+
+# Memory & Storage
+# mem0ai==0.1.0  # Advanced memory (uncomment when ready)
+# chromadb==0.4.0  # Vector database (uncomment when ready)
+
+# UI Framework (PyQt6)
+# PyQt6==6.6.1  # Desktop UI (uncomment when ready)
+# PyQt6-WebEngine==6.6.0  # For 3D viz (uncomment when ready)
+
+# System Monitoring
+psutil==5.9.6  # CPU/memory/battery monitoring
+
+# macOS Integration (optional)
+# pyobjc-framework-Quartz==10.1  # macOS idle detection (uncomment on macOS)
+
+# Utilities
+python-dotenv==1.0.0  # .env file support
+
+# Development
+pytest==7.4.3  # Testing (optional)
+
+# Note: Many dependencies commented out for initial setup.
+# Uncomment as features are implemented.
